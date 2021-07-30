@@ -2,8 +2,8 @@ import os
 
 import pyreadstat as py
 
-DATA_DIRECTORY = "data"
-RESULTS_DIRECTORY = "results"
+DATA_DIRECTORY = "sav_data"
+RESULTS_DIRECTORY = "sav_results"
 
 print('Starting treatment of data files : \n')
 
