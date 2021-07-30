@@ -31,8 +31,7 @@ for data_file in os.listdir(DATA_DIRECTORY):
             json_answers.append(answer)
             i += 1
 
-        print(f"WRITING FILE FOR ROW { row_nbr }")
-        with open(f"{RESULTS_DIRECTORY}/{row_nbr}_{data_file}", 'w') as outfile:
+        with open(f"{RESULTS_DIRECTORY}/reponses_{ row_nbr }.json", 'w') as outfile:
             json.dump(json_answers, outfile)
 
         row_nbr += 1
